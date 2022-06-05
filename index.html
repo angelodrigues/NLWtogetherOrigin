@@ -1,73 +1,250 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- Styles -->
-    <title>OriginSix</title>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="assets/icomoon/style.css">
-</head>
-<body>
-    <header id="header">
-        <nav class="container ">
-            <a class="logo" href="#">beauty<span>salon</span>.</a> 
-            <div class="menu">
-                <ul class="grid">
-                    <li><a class="title" href="#home">Início</a></li>
-                    <li><a class="title" href="#about ">Sobre</a></li>
-                    <li><a class="title" href="#services">Serviços</a></li>
-                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
-                    <li><a class="title" href="#contact">Contato</a></li>
-                </ul>
-            </div>
-            <div class="toggle icon-menu"></div>
-            <div class="toggle icon-close"></div>
-        </nav>
-    </header>
-    <main>
-        <section class="section" id="home">
-            <div class="container grid">
-                <div class="image">
-                    <img src="assets/images/adam-winger-WXmHwPcFamo-unsplash.jpg" alt="imagem1">
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OriginSixAdaptação</title>
+
+        <link rel="stylesheet" href="assets/icomoon/style.css" />
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <header id="header">
+            <nav class="container">
+                <a class="logo" href="#">fox<span>News</span>.</a>
+                <div class="menu">
+                    <ul class="grid">
+                        <li>
+                            <a class="title" href="#home">Início</a>
+                        </li>
+                        <li>
+                            <a class="title" href="#about">Sobre</a>
+                        </li>
+                        <li>
+                            <a class="title" href="#services">Serviços</a>
+                        </li>
+                        <li>
+                            <a class="title" href="#testimonials">Depoimentos</a>
+                        </li>
+                        <li>
+                            <a class="title" href="#contact">Contato</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="text">
-                    <h2 class="title">Saúde natural para os seus cabelos</h2>
-                    <p>Um salão exclusivo em Fortaleza, especializado em tratamentos naturais.</p>
-                    <a class="button" href="#">Agendar horário</a>
+                <div class="toggle icon-menu"></div>
+                <div class="toggle icon-close"></div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- HOME -->
+            <section class="section" id="home">
+                <div class="container grid">
+                    <div class="image">
+                        <img src="https://profissionaisdotexto.com.br/site/wp-content/uploads/2019/02/Assessoria-de-imprensa.jpg" alt="imagem1" />
+                    </div>
+                    <div class="text">
+                        <h2 class="title">
+                            Melhore a visualização e comunicação do seu produto
+                        </h2>
+                        <p>
+                            Uma acessoria morderna e independente, assim como você.
+                        </p>
+                        <a class="button" href="https://api.whatsapp.com/send?phone=5545998593067&text=Ol%C3%A1%2C%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio!">Agendar um horário</a>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
-        <div class="divider-1"></div>
-        <section class="section" id="about">
-            <div class="container grid">
-                Sobre
-            </div>
-        </section>
+            <div class="divider-1"></div>
 
-        <section class="section" id="services">
-            <div class="container grid">
-                Services
-            </div>
-        </section>
+            <!-- ABOUT -->
+            <section class="section" id="about">
+                <div class="container grid">
+                    <div class="image">
+                        <img src="https://media.gazetadopovo.com.br/2020/04/30184547/Imagem_Texto02-960x540.jpg" alt="imagem2" />
+                    </div>
+                    <div class="text">
+                        <h2 class="title">Sobre nós</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tempore provident sequi consequuntur quia cupiditate unde, totam earum laudantium at asperiores eum consectetur? Eos quas cum est saepe dolorem
+                            quis.
+                        </p>
+                        <br />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos doloribus praesentium quia quibusdam nisi dignissimos. Nobis amet est corrupti consectetur beatae! Doloribus neque dicta eligendi, laborum est
+                            voluptates exercitationem. At!
+                        </p>
+                        <br />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sint minima aspernatur perspiciatis praesentium. Dolore, a vero beatae fuga nemo totam quod pariatur sed officiis esse voluptatum
+                            exercitationem fugit veniam?
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-        <section class="section" id="testimonials">
-            <div class="container grid">
-                Depoimentos
-            </div>
-        </section>
+            <div class="divider-2"></div>
 
+            <!-- SERVICES -->
+            <section class="section" id="services">
+                <div class="container grid">
+                    <header>
+                        <h2 class="title">Serviços</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae vel in. Laboriosam <strong>beautyBody</strong> unde quia laborum autem ipsa, distinctio, quas porro esse est iusto fugit eos. Voluptas facere
+                            excepturi asperiores.
+                        </p>
+                    </header>
+                    <div class="cards">
+                        <div class="card">
+                            <h3 class="title">Basic Pack</h3>
+                            <p>
+                                lorem
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="title">Medium Pack</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita mollitia voluptates, at voluptate corporis assumenda facere velit ipsam magnam magni quasi inventore illum aliquam maiores accusamus
+                                quod laudantium dolorum?
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="title">Full Pack</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorum tempora veniam sunt, cumque pariatur incidunt maiores consequatur vel qui nostrum cum, facere quaerat harum labore? Harum atque
+                                voluptatem est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider-1"></div>
+
+            <!-- TESTIMONIALS -->
+            <section class="section" id="testimonials">
+                <div class="container">
+                    <header>
+                        <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+                    </header>
+                    <div class="testimonials swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque aliquam, dolor exercitationem ex
+                                    </p>
+                                    <cite>
+                                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="img1" />
+                                        Maia Da Silva
+                                    </cite>
+                                </blockquote>
+                            </div>
+
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque aliquam, dolor exercitationem ex
+                                    </p>
+                                    <cite>
+                                        <img src="assets/pictures/4.jpg" alt="img2" />
+                                        Roberta Girao
+                                    </cite>
+                                </blockquote>
+                            </div>
+
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                    <p>
+                                        <span>&ldquo;</span>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repudiandae atque aliquam, dolor exercitationem ex
+                                    </p>
+                                    <cite>
+                                        <img src="assets/pictures/20.jpg" alt="img3" />
+                                        Vanessa Camargo
+                                    </cite>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <!-- PAGINATION -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider-2"></div>
+            <!-- CONTACT -->
+        </main>
         <section class="section" id="contact">
             <div class="container grid">
-                Contato
+                <div class="text">
+                    <h2 class="title">Entre em contato com a gente!</h2>
+                    <p>
+                        Entre em contato com a foxNews, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
+                    </p>
+                    <a href="https://api.whatsapp.com/send?phone=5545998593067&text=Ol%C3%A1%2C%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio!" class="button" target="_blank"><i class="icon-whatsapp"></i> Entrar em contato</a>
+                </div>
+
+                <div class="links">
+                    <ul class="grid">
+                        <li><i class="icon-phone"></i> 22 93333-1111</li>
+                        <li>
+                            <a href="https://goo.gl/maps/aYKG1bccYyK8c1i36">
+                                <i class="icon-map-pin"> </i>
+                            </a>
+                            R Paixao Romeno, 111
+                        </li>
+                        <li><i class="icon-mail"></i> contato@foxNews.com</li>
+                    </ul>
+                </div>
             </div>
         </section>
-    </main>
-    <script src="main.js"></script>
-</body>
+
+        <div class="divider-1"></div>
+
+        <footer class="section">
+            <div class="container grid">
+                <div class="brand">
+                    <a class="logo logo-alt" href="#home">fox<span>News</span>.</a>
+                    <p>2022 foxNews</p>
+                    <p>Todos os direitos reservados</p>
+                </div>
+                <div class="social">
+                    <a href="#" target="_blank">
+                        <i class="icon-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="icon-facebook"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="icon-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SWIPER -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- SCROLL REVEL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN.JS -->
+        <script src="main.js"></script>
+    </body>
 </html>
